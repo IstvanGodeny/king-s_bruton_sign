@@ -1,0 +1,240 @@
+<table style="width: 38rem;height: 13rem; background:linear-gradient(300deg, #021031, #02205f);animation: gradient-animation 18s ease infinite; padding: 1rem 1rem;">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        /* your svg */
+        .gradient-background {
+        background: linear-gradient(300deg, #02205f, #02205f);
+        /*background-size: 180% 180%;*/
+        animation: gradient-animation 18s ease infinite;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 85px;
+            height: 30px;
+        }
+
+        .svg-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .your {
+            cursor: pointer;
+            fill: #a18d5f;
+            position: absolute;
+            left: auto;
+            top: auto;
+            /*left: 0;
+            top: 0;*/
+        }
+
+        .your .mask{
+            fill: none;
+            stroke: #ffff; /* Important, needs to be white, otherwise the colours will be mixed. */
+            stroke-miterlimit: 19
+        }
+
+        @keyframes strokeOffset {
+            to {
+            stroke-dashoffset: 0;
+            }
+        }
+        
+        .button {
+            padding: 8px 16px;
+            font-size: 24px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            cursor: pointer;
+        }
+
+
+        #mask-y {
+            animation: strokeOffset 1s linear forwards;
+        }
+
+        #mask-ou {
+            animation: strokeOffset 1s linear forwards 1s;
+        }
+
+        #mask-r {
+            animation: strokeOffset 1s linear forwards 2s;
+        }
+
+        /* your svg end */
+
+
+
+        h1, a { color: #fff; font-family: 'Poppins', sans-serif; }
+        h1 {font-size: 1.5rem; font-weight:300;}
+        a {text-decoration: none; font-size: 0.75rem; font-weight:500;}
+
+        .cell-1 {width: 20.5rem;}
+        .cell-2 {width: 8.4rem; padding-right: 1.5rem;}
+        .cell-3 {width: 8.4rem;}
+
+        .center { text-align: center;}
+
+        .image-top-in-the-cell {vertical-align: top; text-align: center;}
+
+        .social-icon { width: 1.25rem; padding-right: 1.25rem; padding-bottom: 1rem;}
+        
+        .border { width: 14.5rem; height: 2rem; border: 2.5px solid #a18d5f; text-align: center;}
+        .border:first-child { border-top-left-radius: 25px; border-top-right-radius: 25px; border-bottom-left-radius: 25px; border-bottom-right-radius: 25px;}
+        
+        .welcome-video {width: 8rem; height: 8rem;}
+
+        .good-schools {width: 3.5rem; height: 3.5rem;}
+
+        .our-website {width: 7rem; height: 7rem; margin-top: 1.5rem;}
+        
+    </style>
+        
+    
+
+    <tbody>
+        <!-- This is the main row -->
+        <tr>
+            <!-- First cell-->
+            <td class="cell-1">
+                <!-- Table for elements in the first section-->
+                <table>
+                    <tbody>
+                        <!-- row for your King's Bruton-->
+                        <tr>
+                            <td class="center">
+                                <h1>
+                                    <div class="svg-container">
+                                        <div class="container gradient-background">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 -35 300 100" class="your">
+                                            
+                                            <defs>
+                                  
+                                            <g id="your-masks">
+                                  
+                                              <mask id="mask-your-y">
+                                                <path
+                                                  class="mask" 
+                                                  id="mask-y" 
+                                                  d="M62.77,15.4c-7.47,12.91-13.34,26.19-10.5,28.5,5.34,4.33,33-19,44-30-10.5,21.5-31.07,85.8-62,126-10,13-33,14-30-7,2.72-19.02,52.85-60.11,131-107"
+                                                  stroke-linecap="round"
+                                                  stroke-linejoin="bevel" 
+                                                  stroke-width="7.2"
+                                                />
+                                              </mask>
+                                  
+                                              <mask id="mask-your-ou">
+                                                <path
+                                                  class="mask" 
+                                                  id="mask-ou" 
+                                                  d="M140.77,25.4c-15,10-16.62,21.81-15,24,1.67,2.27,8.07,1.12,12-2,4.77-3.79,6.04-10.6,4-15-2.26-4.87-4.52-4.51-5-7-1.47-7.63,42-27,48-19,3,9-24,32-16,41,9,6,26-20,32-25,4,1-14,21-3,28,16,2,12-4,42-21"
+                                                  stroke-linecap="round"
+                                                  stroke-linejoin="bevel"  
+                                                  stroke-width="7.2"
+                                                />
+                                              </mask>
+                                  
+                                              <mask id="mask-your-r">
+                                                <path
+                                                  class="mask" 
+                                                  id="mask-r" 
+                                                  d="M246.77,20.4c-10,16-13.73,31.62-13,32,1.57.82,16-13,31-33,9,12,17,19,39,10"
+                                                  stroke-linecap="round"
+                                                  stroke-linejoin="bevel"  
+                                                  stroke-width="7.2"
+                                                />
+                                              </mask>
+                                  
+                                            </g>
+                                  
+                                            </defs>
+                                  
+                                            <g id="your">
+                                  
+                                              <path
+                                                mask="url(#mask-your-y)"
+                                                id="your-char-y" 
+                                                d="M10.05,149.57c-6.44-2.44-6.99-7.33-7.44-12.65,0-11.43,7.88-21.53,15.54-29.41,11.54-12.21,40.18-32.96,52.61-41.4,3.44-7.88,12.99-30.63,18.09-43.51-16.21,14.65-29.19,23.86-33.85,23.86-3.22,0-7.21-2.55-7.21-5.77,0-4,5.11-16.09,10.32-24.31,1.22-2,6.22-1.44,7.66-.11.67.56.67,1.11.33,1.78-.67.89-1.22,1.78-1.78,2.55-.55,1-6.77,10.21-8.88,19.2-.55,2.22-.11,3.11,1.78,2.33,8.77-3.66,25.31-17.2,32.74-24.75,2.33-2.33,2.77-4.22,3.77-5.11,1.44-1.33,7.55,1.44,5.55,3.44-2.44,2.55-12.99,33.63-17.31,43.07l6.66-4.44c11.43-7.66,21.09-14.32,34.85-22.42l10.54-6.22c.22-.11.44-.33.78-.44.11,0,.33,0,.44.11.33.22-.11.33-.22.33-.55.55-1.11,1-1.78,1.44-7.1,4.99-14.21,9.99-21.42,14.98l-31.85,22.31c-10.66,27.19-26.64,53.83-33.63,64.26-6.77,10.54-17.31,22.09-29.86,22.09-2.11,0-4.33-.44-6.44-1.22ZM34.13,133.81c10.77-14.1,26.19-44.17,33.74-60.82-7.55,5.44-15.21,10.99-22.53,16.76-8.44,6.66-16.54,13.65-23.75,21.64-4.44,4.88-8.44,9.99-11.21,15.98-1.44,3.22-2.33,6.66-2.33,10.54.22,5.22.89,9.88,6.44,9.88,5.22,0,14.1-6.99,19.65-13.99Z"
+                                              />
+                                  
+                                              <path
+                                                mask="url(#mask-your-ou)"
+                                                id="my-char-ou" 
+                                                d="M121.57,50.13c-.33-.89-.45-1.78-.45-2.77,0-7.66,7.21-16.98,11.1-20.42,2.33-2.33,5.44-2.66,7.33-5.66,7.88-8.33,35.07-16.43,43.73-16.87,2.78-.11,5.22,1.11,5.22,4.33.22,6.55-15.21,25.42-17.43,35.74-.55,2.77.22,4.55,4.44,2.77,2.89-1.22,13.99-9.77,16.87-13.1,2.89-3.11,6.99-11.1,10.54-11.1.55,0,1.11.22,1.66.67.44.44.44,1,0,1.55-6.55,8.88-9.32,16.54-9.32,21.09,0,3.11,1.44,4.66,4.66,4.66,10.54,0,27.86-11.99,37.96-20.42,2.22-1.89,2.44-1.22,1,.78-7.21,9.21-30.41,21.98-35.29,22.42-1,.22-1.89.22-2.89.22-6.88,0-12.21-5.55-10.43-13.54-6.33,5.55-11.88,10.43-17.54,10.54-3.55,0-7.99-2.44-8.55-6.55-.67-7.88,10.43-23.31,15.65-31.86,1.22-2.11,2.44-3.77,2.44-4.77,0-2.11-35.74,7.44-39.51,16.21.22,1,1.55,1,1.55,2.11,0,1.33-2.11,1.33-3.11,2,2.22,3.77,3.55,5,3.55,9.1,0,8.55-9.77,17.54-15.32,17.54-3.66,0-6.77-1.89-7.88-4.66ZM140.66,35.93c0-1.67-.55-3.66-2.22-5.88-4.77,6.44-9.32,13.87-10.66,20.53-.22,1-.44,2.66,2.33,1,7.66-4.66,10.54-11.43,10.54-15.65Z"
+                                              />
+                                  
+                                              <path
+                                                mask="url(#mask-your-r)"
+                                                id="my-char-r" 
+                                                d="M230.12,49.25c0-.33,0-.78.11-1.11,1.33-8.1,7.44-20.53,10.88-26.19,1.22-2,6.21-1.44,7.66-.11.67.55.67,1.11.33,1.78-.67.89-1.33,2.22-1.78,3-2,3.33-4.77,9.88-7.44,17.54,2.55-2.89,5.33-5.77,7.66-8.66,4.77-5.77,9.43-11.43,14.1-17.2,1.78-2.11,4.88-2.22,6.66,0,3.44,4.33,4.33,6.33,6.77,9.32,2.22,2.66,5.88,3.77,10.43,3.88,5.66.11,11.65,0,18.31-2.22.22,0,.55-.11.89-.11.11,0,.22.11.33.11.11.22,0,.33-.11.44-1.11,1-2.44,1.67-3.88,2.11-3.44,1.22-11.77,3.11-16.09,3-5.33-.11-10.99-2.66-15.87-6.99-1.55-1.44-3-3-4.44-4.55-.89-1.11-2.33.11-3.33,1.22-1.33,1.33-9.32,10.77-12.65,14.65-2.77,3.11-8.77,10.77-11.32,13.32-.78.67-1.22,1.22-2.22,1.22-1.44,0-4.99-2.44-4.99-4.44Z"
+                                              />
+                                  
+                                            </g>
+                                  
+                                            </svg>
+                                        </div>King's Bruton</h1>
+                                      </div> 
+                                    
+                            </td>
+                        </tr>
+                        <!-- row for Social icons-->
+                        <tr>
+                            <td class="center">
+                                <a href="https://www.facebook.com/KingsBruton"><img class="social-icon" src="https://raw.githubusercontent.com/IstvanGodeny/king-s_bruton_sign/refs/heads/main/facebook-icon.svg" alt="svg"></a>
+                                <a href="https://x.com/KingsBruton"><img class="social-icon" src="x-social-media-black-icon.svg"></a>
+                                <a href="https://x.com/KingsBruton"><img class="social-icon" src="twitter-icon.svg"></a>
+                                <a href="https://www.instagram.com/kingsbruton/?hl=en"><img class="social-icon" src="instagram-icon.svg"></a>
+                                <a href="https://www.youtube.com/@KingsBruton1519"><img class="social-icon" src="https://www.dropbox.com/scl/fi/u6q0mitggpxzhsgqtcq57/youtube-icon.svg?rlkey=xydprokoy77l6vsz4wrp3cepb&st=mb87q90t&dl=0"></a>
+                            </td>
+                        </tr>
+                        <!-- row for Get more info link -->
+                        <tr>
+                            <td class="border">
+                                <a href="www.google.com">Get more info or schedule a visit</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+            </td>
+            <!-- Second cell-->
+            <td class="cell-2 image-top-in-the-cell">
+                <!-- Image to link Watch our film -->
+                 <a href="https://download-video-ak.vimeocdn.com/v3-1/playback/4328ef2b-1984-4faf-9b18-08a676e11e5f/6ab50ad2-29829211?__token__=st=1732280365~exp=1732294765~acl=%2Fv3-1%2Fplayback%2F4328ef2b-1984-4faf-9b18-08a676e11e5f%2F6ab50ad2-29829211%2A~hmac=9ab50dffadc5cbf77d2daa477e779de3e9ee7502c5429f2d23e57075f0c67f21&r=dXMtZWFzdDE%3D#t=0.1"><img class="welcome-video" src="watch-our-welcome.jpg"></a>
+            </td>
+            <!-- Third cell-->
+            <td class="cell-3 image-top-in-the-cell">
+                <table>
+                    <tr>
+                        <td>
+                            <a href="https://www.goodschoolsguide.co.uk/schools/kings-bruton"><img class="good-schools" src="good-schools.jpg"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://kingsbrutonv2mvc.leia.tiarc-live.co.uk/"><img class="our-website" src="visit-our-website.jpg"></a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+    </tbody>
+
+    <script>
+        const masks = ['y', 'ou', 'r']
+
+        masks.forEach((mask, index, el) => {
+            const id = `#mask-${mask}`
+            let path = document.querySelector(id)
+            const length = path.getTotalLength()
+            path.style.strokeDasharray = length;
+            path.style.strokeDashoffset = length;
+        })
+    </script>
+</table>
